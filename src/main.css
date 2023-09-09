@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .section-min-height {
+        min-height: calc(100vh - 68px);
+    }
+    .toggle-btn{
+        @apply[&>div::before]:translate-y-0 [&>div::before]:rotate-45 
+        [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent
+        [&>div]:rotate-[720deg]
+    }
+}
+
+.radial-blue {
+    background: radial-gradient(lightyellow, skyblue);
+}
+
+main #Testimonials blockquote p::before {
+
+    position: absolute;
+    font-family: serif;
+    top: 0;
+    left: 0;
+    font-size: 8rem;
+    line-height: 1;
+    color: white;
+    opacity: 25%;
+    transform: translate(0.5rem, 0.5rem);
+}
+
+main #Testimonials blockquote p::after {
+
+    position: absolute;
+    font-family: serif;
+    bottom: -80px;
+    right: 0;
+    font-size: 8rem;
+    line-height: 1;
+    color: white;
+    opacity: 25%;
+    transform: translate(-0.5rem, -0.5rem);
+}
+
+/* #hamgurger-button div::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: white;
+    transition-duration: 500ms;
+    transform: translate(-16px, -12px)
+}
+
+#hamgurger-button div::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: white;
+    transition-duration: 500ms;
+    transform: translate(-16px, 12px)
+} */
