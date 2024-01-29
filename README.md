@@ -1,4 +1,4 @@
-# Static Frontend Project with Tailwind CSS
+# Acme-Rockets
 
 Welcome to the Static Frontend Project with Tailwind CSS! This project focuses on building a lightweight, static website using the powerful and utility-first CSS framework, Tailwind CSS. With Tailwind CSS, creating a visually appealing and responsive frontend becomes an efficient and enjoyable process.
 
@@ -25,14 +25,14 @@ This static frontend project aims to showcase the capabilities of Tailwind CSS i
 The project structure is minimal, focusing on simplicity and ease of use. Here's a brief overview:
 
 - **`index.html`:** The main HTML file containing the structure of the static website.
-- **`styles.css`:** Custom CSS file where you can add additional styles or override Tailwind CSS styles.
+- **`main.css`:** Custom CSS file where you can add additional styles or override Tailwind CSS styles.
 
 ## Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/static-frontend-tailwind.git
+   git clone https://github.com/ahmed-226/Acme-Rockets.git
    ```
 
 2. Open the `index.html` file in your preferred web browser or deploy it to a static hosting service.
@@ -43,12 +43,5 @@ The project structure is minimal, focusing on simplicity and ease of use. Here's
 
 Feel free to customize the styles according to your preferences by modifying the `styles.css` file. Tailwind CSS classes are easily customizable, allowing you to tailor the design to suit your specific needs.
 
-## Contributing
 
-Contributions are welcome! If you have ideas for enhancements or improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Thank you for exploring this static frontend project with Tailwind CSS. Enjoy creating beautiful and responsive user interfaces with the power of Tailwind!
